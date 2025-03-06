@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html,
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: initial;
+}
+
+.container {
+    padding-left: 119px;
+    padding-right: 121px;
+    margin: 0 auto;
+}
+
+.container--menu-top {
+    padding: 22px 0 22px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(90deg, #9BAAFA 0%, #367BF5 100%) 1;
+}
+
+.container--logo {
+    width: 48px;
+    height: 48px;
+    box-shadow: 0 1px 2px 0 #0823303D;
+    background: #C5D0D4;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 12px;
+}
+
+.container--logo img {
+    width: 48px;
+    height: 48px;
+    margin-right: 12px;
+}
+
+.container--logo h2 {
+    display: flex;
+    align-items: center;
+    font-family: "Bai Jamjuree";
+    font-size: 34px;
+    line-height: 38.25px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+
+.container--socialNetwork-gray {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.container--menu-bottom {
+    margin-top: 26px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.menu-actions{
+    display: flex;
+}
+
+.menu-actions ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+
+.menu--item {
+    display: flex;
+    font-family: "Roboto";
+    justify-content: center;
+    list-style: none;
+    font-size: 16px;
+    letter-spacing: 0.44px;
+    text-underline-position: from-font;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu--item p{
+    display: flex;
+    align-items: center;
+    margin: 0 10px 0 10px ;
+}
+
+.active {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 6px 0 rgba(8, 35, 48, 0.16);
+    font-family: "Roboto";
+    list-style: none;
+    font-size: 16px;
+    letter-spacing: 0.44px;
+    /*text-align: center;*/
+    text-underline-position: from-font;
+    cursor: pointer;
+}
+
+.menu--item:hover{
+    box-shadow: 0px 1px 2px 0px #0823303D;
+    box-shadow: 0px 2px 6px 0px #08233029;
+}
+
+.container--socialNetwork-gray {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button-resg {
+    border: 1px solid #367BF5;
+    border-radius: 10px;
+    background: none;
+    font-size: 14px;
+    width: 189px;
+    height: 40px;
+    color: #367BF5;
+    cursor: pointer;
+}
+
+
+.container--about {
+    max-width: 100%;
+    height: 960px;
+    background-image: url('imag/img/main.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container--title {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    font-family: "Roboto";
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.15000000596046448px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.container--style_font-h {
+    font-family: "Bai Jamjuree";
+    background: linear-gradient(90deg, #80688E 0%, #4F586A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.container--about h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    line-height: 51px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    text-underline-position: from-font;
+}
+
+.container--about div p {
+    width: 55%;
+    text-align: center;
+}
+
+.about--button-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.button-style {
+    width: 176px;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.about--button-right {
+    color: #fff;
+    background: #367BF5;
+    box-shadow: 0 6px 12px 0 rgba(54, 123, 245, 0.16);
+}
+
+.about--button-left {
+    color: #367BF5;
+    background: #fff;
+    border: 1px solid #367BF5;
+}
+
+main h2 {
+    font-family: Bai Jamjuree;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 32px;
+}
+
+.container--colum {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 98px;
+    justify-content: space-between;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    gap: 24px;
+    padding-right: 24px;
+    align-items: flex-start;
+}
+
+.container--text-title {
+    font-family: Bai Jamjuree;
+    font-size: 34px;
+    line-height: 38.25px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.container--text h3 {
+    font-family: "Bai Jamjuree";
+    font-size: 34px;
+    line-height: 38.25px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.container--text p {
+    font-family: "Roboto";
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.container--text a {
+    position: relative;
+    text-decoration: none;
+    color: #367BF5;
+}
+
+.row--main-icon {
+    padding-left: 24px;
+}
+
+.row--icon-silka {
+    padding-left: 8px;
+    position: relative;
+    top: 10%
+}
+
+.foreground-img-style {
+    position: absolute;
+}
+
+.background-img-style {
+    position: relative;
+}
+
+.row--foreground-caffeine {
+    top: 17%;
+    left: -10%;
+}
+
+.row--foreground-chart {
+    top: 29%;
+    right: -10%;
+}
+
+.row--foreground-beach {
+    bottom: -16%;
+    left: 13%;
+}
+
+.container--foreground-shopping {
+    top: -35%;
+    left: 0;
+}
+
+.container-button-right {
+    width: 270px;
+    height: 64px;
+    background: #367BF5;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.container--row {
+    padding-top: 16px;
+    border-radius: 8px;
+}
+
+.colum {
+    display: flex;
+    padding-top: 80px;
+}
+
+.container--text span {
+    color: red;
+}
+
+.container--text-blue {
+    background: linear-gradient(90deg, #9BAAFA 0%, #367BF5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container--colum {
+    width: 100%;
+    font-family: "Bai Jamjuree";
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.15000000px;
+}
+
+.container--text-gray {
+    font-family: "Roboto";
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(94, 99, 102, 1);
+}
+
+.block-blue {
+    background: rgba(229, 239, 255, 1);
+}
+
+.block-shadow {
+    box-shadow: 0 2px 4px 0 rgba(54, 123, 245, 0.24);
+    box-shadow: 0 4px 8px 0 rgba(54, 123, 245, 0.16);
+
+}
+
+.row--text h6 {
+    padding-bottom: 20px;
+    font-family: "Roboto";
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.row--block-left {
+    display: flex;
+    gap: 46px;
+}
+
+.row--block-right {
+    display: flex;
+    gap: 46px;
+}
+
+.row--img {
+    padding-top: 35px;
+}
+
+.row--text p {
+    font-family: "Roboto";
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-bottom: 30px;
+}
+
+.row--text h2 {
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    color: rgba(62, 67, 69, 1);
+}
+
+.row--text-left {
+    text-underline-position: from-font;
+    background: linear-gradient(90deg, #57CBAF 0%, #2FA84F 100%);
+    text-decoration-skip-ink: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.button-left {
+    color: #fff;
+    background: rgba(47, 168, 79, 1);
+    box-shadow: 0px 2px 4px 0px rgba(47, 168, 79, 0.24);
+    box-shadow: 0px 4px 8px 0px rgba(47, 168, 79, 0.16);
+}
+
+.button-right {
+    color: #fff;
+    background: rgba(54, 123, 245, 1);
+    box-shadow: 0 2px 4px 0 rgba(54, 123, 245, 0.24);
+    box-shadow: 0 4px 8px 0 rgba(54, 123, 245, 0.16);
+}
+
+.row--text-right {
+    background: linear-gradient(90deg, #9BAAFA 0%, #367BF5 100%);
+    text-decoration-skip-ink: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container--pillar {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 30px;
+}
+
+.container--menu-footer {
+    margin-top: 26px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul {
+    width: 656px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.container--logo-img {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    box-shadow: 0 1px 2px 0 #0823303D;
+    background: #C5D0D4;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 12px;
+}
+
+.container--logo-img img {
+    width: 48px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.container--pillar h2 {
+    font-family: "Bai Jamjuree";
+    font-size: 34px;
+    line-height: 38.25px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.container--pillar ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.low-text {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 5px
+}
+
+.container--subscribe {
+    display:grid;
+    justify-content: center;
+    position: relative;
+}
+
+.container--subscribe input {
+    width: 568px;
+    height: 60px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: 9.5%;
+    border: none;
+    box-shadow: 0px 8px 16px 0px #0823301A;
+    box-shadow: 0px 20px 32px 0px #0823300F;
+    background: #FFFFFF;
+
+    font-family: "Poppins";
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.15px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.container--subscribe button{
+    width: 172px;
+    height: 44px;
+    position: absolute;
+    bottom: 0.5%;
+    right: 0.5%;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #FFFFFF;
+    background: #C6CACC;
+
+    font-family: "Poppins";
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.15px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.bottom-subtitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    margin-left: 10px;
+}
+
+.container--subscribe-text {
+    width: 31%;
+    font-family: "Roboto";
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-bottom: 5.5%;
+}
