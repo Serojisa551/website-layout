@@ -1,0 +1,667 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap');
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body p, h2, h3, h4, h5, h6 {
+    font-family: "M plus 1p", sans-serif;
+    direction: ltr;
+    unicode-bidi: bidi-override;
+}
+
+li{
+    list-style: none;
+}
+
+.style-white{
+    color: white;
+    text-shadow: 2px 2px 5px rgba(180, 219, 255, 1);
+}
+
+.style-black{
+    color: #202332;
+    text-shadow: 2px 2px 5px #B4DBFF;
+}
+
+
+.title--line-black{
+    border-bottom: 2px solid black;
+    width: 72px;
+}
+
+.title--line-white{
+    border-bottom: 2px solid white;
+    width: 72px;
+}
+
+.elem--off{
+    display: none;
+}
+
+.container{
+    width: 1260px;
+    margin: 0 auto 30px auto;
+}
+
+/*----------header----------*/
+
+.header--container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 10px 50px;
+}
+
+.header--menu{
+    display: flex;
+    gap: 20px;
+}
+
+.header--menu-item :hover{
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.header--menu-item p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 136%;
+    vertical-align: middle;
+}
+
+
+/*----------home-----------*/
+.home{
+    background: url("../image/img/home-photo.jpeg") no-repeat center;
+    /*background-size: 100% 100%;*/
+    background-size: cover;
+    height: 883px;
+    margin: 0 20px 0 50px;
+    display: flex;
+    align-items: end;
+}
+
+.home--logo{
+   background: white;
+    padding: 20px;
+}
+
+
+/*-------page1-----------*/
+.page1{
+    background: url("../image/img/bg-blue.jpeg");
+    background-size: cover;
+}
+
+.page1 .container{
+    margin-top: 30px;
+    color: white;
+    /*padding-top: 120px;*/
+}
+
+/*TODO обще пересмотреть */
+.page-title{
+    /*display: flex;*/
+    /*align-items: end;*/
+}
+
+.page-title--number {
+    display: flex;
+    transform: rotate(90deg);
+    transform-origin: left center;
+    align-items: center;
+    gap: 10px;
+    width: 115px;
+}
+
+.page-title--number p{
+    transform: rotate(180deg);
+    gap: 10px;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 60px;
+}
+
+
+.page1--content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.page1--content-mini{
+    display: none;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.tandz{
+    margin-top: 27px;
+}
+
+.page-title--text{
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 60px;
+}
+
+/*.page1-content--title{*/
+/*    text-align: end;*/
+/*}*/
+
+.page1-content--title h5{
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 136%;
+    margin-bottom: 30px;
+    text-align: end;
+}
+
+.page1-content--text p{
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: right;
+    max-width: 436px;
+}
+
+.page1-content--text {
+    margin-bottom: 10px;
+    text-align: right;
+    max-width: 385px;
+}
+
+.page1-content--text p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+
+.page1--button{
+    text-align: center;
+    padding: 80px 0;
+}
+
+.page1--button button{
+    border: none;
+    background: none;
+}
+
+/*--------page2-----------*/
+
+.page2 .container{
+    margin-bottom: 100px;
+}
+
+.page2-content{
+    margin-top: 50px;
+    display: flex;
+}
+
+.page2--right-block{
+    display: flex;
+}
+
+.page2-right--big h2 {
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 136%;
+    text-align: end;
+    vertical-align: middle;
+    color: #15557B;
+    margin-bottom: 30px;
+}
+
+.page2-right--big p{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-align: right;
+    vertical-align: middle;
+    color: #202332B8;
+    height: 459px;
+    overflow-y: scroll;
+}
+
+.page2-right--small p{
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-family: "Mplus 1p", sans-serif Bold;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 136%;
+    letter-spacing: 0.3em;
+    text-align: center;
+    vertical-align: middle;
+    color: #202332B8;
+}
+
+.page2--off{
+    display: none;
+}
+
+/*---------login-----------*/
+
+.login{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.login--right-block{
+    background: #165E83;
+    color: white;
+    padding-top: 90px;
+}
+
+.login-right--container{
+    width: 730px;
+    margin: 0 auto;
+}
+
+.login--title{
+    margin-bottom:30px;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 100%;
+}
+
+.title--right{
+    text-align: end;
+}
+
+.title--left{
+    text-align: center;
+    margin: 44px 0 30px 0;
+}
+
+
+.login--icons-top{
+    margin:20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 5px;
+}
+
+.style-backend{
+    position: relative;
+}
+
+.style-front{
+    position: absolute;
+    left: 0;
+}
+
+.login--icons-item:hover{
+    box-shadow: 0 0px 50px 0px #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+.login--icons-items:hover{
+    box-shadow: 0 0px 10px 0px #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+.login--icons-bottom {
+    position: relative;
+}
+
+/*TODO  проблема в том что при изменении ширины экрана меняется
+   и размер линии и уже координаты для itemN по другому воспринимается
+*/
+.login--line{
+    background: url("../image/icon/line.svg");
+    width: 100%;
+    height: 3px;
+}
+
+.item-1{
+    position: absolute;
+    top: -7px;
+    left: 26%;
+}
+
+.item-2{
+    position: absolute;
+    top: -7px;
+    left: 38%;
+}
+
+.item-3{
+    position: absolute;
+    top: -7px;
+    left: 50%;
+}
+
+.item-4{
+    position: absolute;
+    top: -7px;
+    left: 62%;
+}
+
+.item-5{
+    position: absolute;
+    top: -7px;
+    left: 74%;
+}
+
+.login--right-text{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+.login--right-text p{
+    width: 108px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: right;
+    vertical-align: middle
+}
+
+
+.login--left-block{
+    padding-top: 10px;
+    background: #202332;
+    color: white;
+    width: 100%;
+}
+
+.login--form-container{
+    width: 310px;
+    margin: 0 auto;
+}
+
+.login--form{
+    margin-top: 75px;
+}
+
+.login--form-top{
+    display: flex;
+    border-bottom: 1px solid white;
+    margin-bottom: 27px;
+}
+
+/*TODO внутренний текст не соответствует макету*/
+.login--form-top input{
+    width: 100%;
+    color: white;
+    border: none;
+    background: none;
+}
+
+/*TODO кнопка не соответствует макету*/
+.login--form .page1--button{
+    padding: 38px 0 43px 0;
+}
+
+.login--mini{
+    background: #165E83;
+}
+
+.title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:30px 0;
+}
+
+.step p {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.step--main:hover{
+    box-shadow: 0 0px 50px 0px #fff;
+    transition: all 0.5s ease-in-out;
+}
+
+/*----------page3----------*/
+.page3{
+    background: url("../image/img/bg-page3.png");
+    background-size: cover;
+    height: 1080px;
+    position: relative;
+}
+
+.page3 .container{
+    padding: 30px 0 80px 0;
+    margin: 0 auto 0 auto;
+}
+
+
+.page3-content{
+    display: flex;
+    margin-top: 140px;
+}
+
+.page3--right-block{
+    width: 100%;
+}
+
+.page3--right p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: right;
+    color: #202332B2;
+}
+
+.page3--right span{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: right;
+    color: black;
+}
+
+.page3--right-left{
+    width: 48%;
+}
+
+.search{
+    display: none;
+}
+
+.page3--decor{
+    width: 213px;
+    height: 36px;
+    background: #165e83;
+    position: absolute;
+    right: 0;
+    bottom: -0.1%;
+}
+
+/*---------page4---------*/
+.page4{
+    background: url("../image/img/bg-page4.png")no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.page4-content{
+    padding-top: 64px;
+    margin: 0 20px;
+}
+.page4--font-style{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: right;
+}
+
+.page4--font-style span{
+    text-decoration: underline;
+    text-decoration-style: solid;
+}
+
+.page4--top-block{
+    margin-top: 80px;
+}
+
+.page4--top{
+    display: flex;
+    gap: 85px;
+}
+
+.page4--bottom {
+    display: flex;
+    align-items: end;
+    gap: 85px;
+}
+
+.page4--decor{
+    width: 400px;
+    height: 36px;
+    background: white;
+}
+
+/*----------page5----------*/
+
+.page4--content{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 25% 25% 25% 25% ;
+}
+
+.page4--content-item{
+    display: grid;
+    justify-content: center;
+    /*align-items: center;*/
+    justify-items: center;
+}
+
+.page4--content-item p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    width: 252px;
+}
+
+
+/*--------form-----------*/
+
+.form{
+    position: relative;
+    height: 604px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.form--container{
+    width: 775px;
+    margin: 0 auto;
+}
+
+.form--container .login--title{
+    margin-bottom: 90px;
+}
+
+.form-input{
+    display: flex;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.form-right{
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+}
+
+.form-left{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.form-input input{
+    width: 100%;
+    height: 44px;
+    color: black;
+    border: none;
+    background: none;
+}
+
+.form--container button{
+    border: none;
+    background: none;
+}
+
+
+/*--------footer---------*/
+footer{
+    background: url("../image/img/bg-foot.png");
+    background-size: cover;
+    color: white;
+}
+
+.footer--top-wrapper{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer--top{
+    width: 62%;
+    display: flex;
+    justify-content: space-between;
+    padding:70px 30px 36px 0;
+}
+
+.footer--bottom{
+    display: flex;
+    justify-content: space-between;
+    padding:0 30px 0 30px;
+}
+
+.footer--bottom p{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 141%;
+    text-align: center;
+}
+
+.footer--bottom span{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 141%;
+    text-align: center;
+}
+
+.footer--bottom-left{
+    display: flex;
+    gap: 33px;
+}
+
+.bottom-mini{
+    display: flex;
+    gap: 10px;
+}
+
+.bottom-super--item:hover{
+    box-shadow: 0px 0px 50px 0px #FFFFFF;
+}

@@ -1,0 +1,368 @@
+@media (min-width: 1921px) {
+    .container--out{
+        width: 1920px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1279px) and (min-width: 1024px){
+
+    .container{
+        width: 824px;
+    }
+
+    /*----------page1-----------*/
+    .page1--content{
+        display: none;
+    }
+
+    .page1--content-mini{
+        display: flex;
+    }
+
+    .page1--content-item{
+        max-width: 242px;
+    }
+
+    /*----------page2---------*/
+    .page2--on{
+        display: none;
+    }
+    .page2--off{
+        display: block;
+    }
+
+    /*---------page3----------*/
+    .page3--right-left img{
+        width: 100%;
+    }
+
+
+    /*----------login----------*/
+    .login{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .footer--super-wrapper{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .footer--bottom-super{
+        width: 290px;
+        display: flex;
+        /*justify-content: flex-end;*/
+    }
+
+    /*----------page4---------*/
+    .page4--content-item p {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        width: 210px;
+    }
+
+    .page4--bottom {
+        align-items: center;
+    }
+
+    .page4--bottom img{
+        width: 28.2em;
+        height: 18.9em;;
+    }
+
+
+}
+
+@media (max-width: 1023px) and (min-width: 320px){
+    .container--out{
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    .container{
+        width: 280px;
+    }
+
+    .page-title--text p {
+        font-weight: 800;
+        font-size: 27px;
+        line-height: 30px;
+        text-align: right;
+        vertical-align: middle;
+
+    }
+
+    /*---------header---------*/
+    header{
+        background: #202332;
+    }
+
+    .header--container {
+        margin:0;
+        padding: 20px 20px 10px 50px;
+    }
+
+    .header--left{
+        display: none;
+    }
+
+    .elem--on{
+        display: none;
+    }
+
+    .elem--off{
+        display: block;
+    }
+
+    /*------home--------*/
+    .home{
+        background: url("../image/img/bg-night.png") no-repeat;
+        background-size: 100% 100%;
+        margin:0;
+        padding: 20px 20px 10px 50px;
+        display: grid;
+        grid-template-rows: 4.4% 45%;
+        position: relative;
+    }
+
+    .home--logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: none;
+        padding: 0;
+    }
+
+    .home--scroll{
+        display: flex;
+        gap: 13px;
+        transform: rotate(90deg);
+        position: absolute;
+        right: -7%;
+        bottom: 8%;
+    }
+
+    /*----------page1-----------*/
+    .page1--content{
+        display: none;
+    }
+
+    .page1--content-mini{
+        display: flex;
+        flex-direction: column;
+        padding-left: 40px;
+    }
+
+    .page1--content-item{
+        max-width: 242px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        margin-bottom: 30px;
+    }
+
+    .page1--button button img{
+        width: 100%;
+    }
+
+    /*----------page2---------*/
+    .page2--on{
+        display: none;
+    }
+    .page2--off{
+        display: block;
+    }
+
+    .page2-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page2--right-left {
+        order: 1;
+    }
+
+    .page2--right-block {
+        order: 2;
+    }
+
+    .page2--right-left img{
+        width: 100%;
+    }
+
+    .page2-right--subtitle {
+        font-weight: 800;
+        font-size: 35px;
+        line-height: 136%;
+        letter-spacing: 0.3em;
+        text-align: center;
+        vertical-align: middle;
+    }
+    /*---------page3----------*/
+    .page3 {
+        height: auto;
+        background-position: center;
+    }
+
+    .page3--right-left img{
+        width: 100%;
+    }
+
+    .page3-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .page3--right-block{
+        width: 100%;
+        order: 2;
+    }
+
+    .page3--right p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: right;
+        color: #202332B2;
+    }
+
+    .page3--right span{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: right;
+        color: black;
+    }
+
+    .page3--right-left{
+        width: 100%;
+        order: 1;
+    }
+
+    .page3--right p{
+        line-height: 27px;
+    }
+
+    /*----------login----------*/
+    .login{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .login-arrow{
+        /*padding-right: 30px;*/
+        padding: 0 30px 0 0px;
+        /*margin-left: 30px;*/
+        transform: rotate(-90deg);
+    }
+
+    /*----------page4---------*/
+    .page4--content-item p {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: right;
+        width: 139px;
+    }
+
+    .page4--top{
+        display: block;
+    }
+
+    .page4--photo{
+        order: 1;
+        margin-bottom: 30px;
+    }
+
+    .page4--text-block{
+        order: 2;
+        margin-bottom: 20px;
+    }
+
+    .page4--photo img{
+        width: 100%;
+    }
+
+    .page4--bottom {
+        flex-direction: column;
+        gap: 10px;
+        /*align-items: center;*/
+
+    }
+
+    .page4--bottom img{
+        margin-top: 30px;
+        /*width: 28.2em;*/
+        /*height: 18.9em;;*/
+    }
+
+    .page4--decor {
+        width: 165px;
+    }
+
+    /*-------page5-------*/
+    .page4--content {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 25% 25% 25% 25%;
+    }
+
+    /*form*/
+    .form{
+        background: url("../image/img/form-right.png") no-repeat;
+    }
+
+    /*-----------footer---------*/
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer--top-wrapper{
+        order: 1;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .footer--top {
+        width: 80%;
+    }
+
+    .footer--super-wrapper{
+        display: flex;
+        order:2;
+        justify-content: center;
+    }
+
+    .footer--bottom{
+        order: 3;
+        flex-direction: column;
+    }
+
+    .footer--bottom-super{
+        width: 290px;
+        display: flex;
+        /*justify-content: flex-end;*/
+    }
+
+    .footer--bottom-left{
+        flex-direction: column;
+    }
+
+    .footer--bottom-left{
+        gap:0;
+    }
+
+    .bottom-mini{
+        display: block;
+    }
+
+
+}
