@@ -1,0 +1,987 @@
+@media (max-width: 1649px) {
+    .header--right {
+        width: 27%;
+    }
+}
+
+@media (max-width:1199px) {
+    .elem-off{
+        display: block;
+    }
+
+    .header--bottom .container{
+        width: 100%;
+        padding: 20.5px 35px 20.5px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header--menu{
+        display: none;
+    }
+
+    .header--logo-bottom{
+        display: none;
+    }
+
+    .header--logo{
+        align-items: end;
+    }
+
+    .header--logo-top {
+        font-size: 20px;
+        line-height: 48px;
+        text-align: end;
+    }
+}
+
+@media (max-width: 1199px) and (min-width:992px) {
+    h1{
+        font-size: 50px;
+        margin: 61px 0;
+    }
+
+    .container {
+        width: 960px;
+    }
+
+    /*-------header-----------*/
+    .header--bottom .container{
+        /*padding: 40.5px 0;*/
+        padding: 6px 35px;
+    }
+
+    /*-------home----------*/
+    .home{
+        margin-top: 118px;
+    }
+
+    /*---------recommendations-----------*/
+    .recommendations--title h2{
+        font-size: 32px;
+        line-height: 1.2;
+    }
+    .recommendations--content{
+        margin-bottom: -32px;
+    }
+
+    .recommendations--content-item{
+        width: calc(33% - 24.5px);
+        padding: 0;
+    }
+
+    .recommendations--item-img{
+        height: 220px;
+    }
+
+    .recommendations--item-img:hover .thumb__overlay {
+        bottom: 37%;
+    }
+
+    .recommendations--price{
+        right: 0;
+    }
+
+    h4 + p {
+        margin-top: 5px;
+        color: #9b9b9b;
+        -webkit-text-size-adjust: none;
+    }
+
+    .btn{
+        max-width: 122%;
+    }
+
+    /*--------video---------*/
+    .video{
+        height: 100%;
+    }
+
+    .video .container {
+        height: 100%;
+    }
+
+    .video .container {
+        height: 100%;
+        position: relative;
+        z-index: 1;
+        padding: 83px 15px;
+        /*margin-bottom: -30px;*/
+    }
+
+    /*--------services---------*/
+    .services{
+        padding: 70px 0;
+    }
+
+    .services--top-item{
+        flex: 0 0 25%;
+        max-width: 21.9%;
+        height:250px;
+        margin-bottom: 30px;
+    }
+
+    .services--img-block img {
+        object-position: right;
+    }
+
+    .services--content-top {
+        margin: 62px 0 -30px 0;
+    }
+
+    .services--content-top + .btn {
+        margin: 60px auto 0 auto;
+    }
+
+    /*-------testimonials---------*/
+    .testimonials {
+        height: 586px;
+    }
+
+    .testimonials .container {
+        padding: 70px 0;
+    }
+
+    /*----------contact-form---------*/
+    .contact-form {
+        padding: 70px 0;
+    }
+
+    form {
+        margin-top: 52px;
+    }
+
+    /*--------footer--------*/
+    .footer--address {
+        width: 50%;
+        text-align: start;
+    }
+
+    .footer-rights {
+        width: 10%;
+    }
+}
+
+@media (max-width: 991px) and (min-width:768px){
+    .elem-off--for-ipad{
+        display: block;
+    }
+
+    .elem-on--for-ipad{
+        display: none;
+    }
+
+    h1{
+        margin: 0 0 60px 0;
+        font-size: 38px;
+        width: 70%;
+    }
+
+    .container {
+       width: 720px;
+    }
+
+    /*--------header---------*/
+    .header--right {
+        width: 47%;
+        justify-content: normal;
+    }
+
+    .header--bottom .container {
+        padding: 4px 35px 4px 20px;
+    }
+
+
+    /*----------home----------*/
+    .home{
+        height: 350px;
+        background-position: 32% 100%;
+        margin-top: 114px;
+    }
+
+    .home .container{
+        justify-content: center;
+    }
+
+    .h1-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home--form-mini{
+        padding: 0 15px;
+        display: block;
+        margin-top: 30px;
+    }
+
+    .tandz{
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .btn {
+        justify-content: center;
+    }
+
+    .tandz .btn{
+        width: 45%;
+    }
+    .btn button p {
+        color: white;
+        padding: 13px 33px;
+        font-size: 13px;
+        font-weight: 700;
+        /* text-align: center; */
+    }
+
+    .dropdown {
+        width: 45%;
+        position: relative;
+    }
+
+    .container input{
+        width: 100%;
+    }
+
+    /*-------------recommendations-----------*/
+    .recommendations{
+        /*height: 2147px;*/
+    }
+
+    .recommendations .container {
+        padding: 70px 0;
+    }
+
+    .recommendations--content{
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .recommendations--content-item {
+        padding: 0 ;
+        width: 300px;
+        margin: 0 22px;
+    }
+
+    .recommendations--item-img:hover .thumb__overlay {
+        bottom: 44%;
+    }
+
+    .recommendations--item-img {
+        height: 220px;
+    }
+
+    .recommendations--item-img img {
+        width: 330px;
+        height: 250px;
+    }
+
+    .recommendations--price {
+        right: 0;
+    }
+
+    h4 + p {
+        margin-top: 5px;
+    }
+
+    /*-----------video-------------*/
+    .video{
+        height: 100%;
+    }
+
+    .video .container {
+        padding: 70px 15px;
+    }
+
+    .recommendations--title h2{
+        font-size: 26px;
+        line-height: 1.5;
+    }
+
+    .video--content{
+        gap:60px;
+        margin-top: 28px;
+        flex-wrap: wrap;
+    }
+
+    .video--content-item {
+        width: calc(50% - 30px);
+    }
+
+    .video--content-text p {
+        width: 100%;
+    }
+
+    .video--content-text {
+        margin-top: 143px;
+    }
+
+
+    /*-----------services------------*/
+    .services {
+        padding: 70px 0;
+    }
+
+    .services--content-top {
+         margin: 0;
+    }
+
+    .services--top-item {
+        /*width: calc(50% - 1px);*/
+        width: 320px;
+        height: 250px;
+        margin: 0;
+    }
+
+    .services--img-block img{
+       width: calc(100% + 50px);
+        /*width: 350px;*/
+    }
+
+    .services--content-top + .btn {
+        width: 185px;
+        margin: 60px auto 0 auto;
+    }
+
+    .heading-4 + .btn {
+        width: 147px;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+
+    .services--content-top + .btn p{
+        padding: 16px 33px 10px 33px;
+    }
+
+    .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /*---------testimonials-------*/
+    .testimonials {
+        height: 570px;
+    }
+
+    .testimonials .container {
+         width: 720px;
+    }
+
+    /*---------------contact-form------------*/
+    .contact-form {
+        text-align: center;
+        border-radius: 5px;
+        padding: 70px 0;
+    }
+
+    .contact-form .container {
+         width: 100%;
+    }
+
+    form{
+        margin-top: 0;
+    }
+
+    .wrapper-btn .btn {
+        width: 72px;
+        height: 38px;
+        text-align: center;
+    }
+
+    .wrapper-btn .btn button p {
+        width: 100%;
+        padding:0;
+        font-size: 13px;
+    }
+
+    /*------footer--------*/
+    .footer-content{
+        display: block;
+    }
+
+    .footer-content span{
+        display: block;
+        margin-bottom:30px;
+    }
+
+    .contact-info{
+        display: block;
+        justify-content: center;
+    }
+
+    .footer--black{
+        justify-content: center;
+    }
+
+    .footer--black, .social-icons{
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width:959px){
+    .element-on{
+        display: none;
+    }
+
+    .element-off{
+        display: block;
+    }
+
+    .header--left{
+        gap: 30px;
+    }
+
+}
+
+@media (max-width: 767px) and (min-width:576px){
+    .elem-off--for-ipad{
+        display: block;
+    }
+
+    .elem-on--for-ipad{
+        display: none;
+    }
+
+    .container {
+        max-width: 540px;
+    }
+
+    /*----------home----------*/
+    .home{
+        height: 350px;
+        margin-top: 148px;
+        background-position: 32% 100%;
+    }
+
+    .home .container{
+        justify-content: center;
+    }
+
+    .h1-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1{
+        font-size: 28px;
+        width: 64%;
+        margin: 70px 0;
+    }
+
+    .home--form-mini{
+        padding: 0 15px;
+        display: block;
+        margin-top: 30px;
+    }
+
+    .tandz{
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .tandz .btn{
+        width: 45%;
+        justify-content: center;
+    }
+
+    .dropdown {
+        width: 45%;
+        position: relative;
+    }
+
+    .container input{
+        width: 100%;
+    }
+
+    /*-------------recommendations-----------*/
+    /*.recommendations{*/
+    /*    height: 4454px;*/
+    /*}*/
+
+    .recommendations .container {
+        padding: 50px 0;
+    }
+
+    .recommendations--content {
+         margin-top: 0px;
+    }
+
+    .recommendations--content-item{
+        padding: 0 ;
+        width: 100%;
+    }
+
+    .recommendations--item-img{
+        width: 100%;
+        height: 391px;
+    }
+
+    .recommendations--item-img img{
+        width: calc(100% + 50px);
+        height: 391px;
+    }
+
+    h4, h4 + p{
+        text-align: center;
+    }
+
+    .recommendations--price {
+        right: 0;
+    }
+
+    .thumb__overlay-2_cnt {
+        position: absolute;
+        bottom: -23%;
+        left: 34%;
+    }
+
+    .thumb__overlay-2_cnt:hover {
+        left: 34%
+    }
+
+    /*-----------video-------------*/
+    .video{
+        height: 100%;
+    }
+
+    .video .container {
+        padding: 70px 15px;
+    }
+
+    .recommendations--title h2{
+        font-size: 26px;
+        line-height: 1.5;
+    }
+
+    .video--content{
+        gap:50px;
+        margin-top: 0;
+        flex-wrap: wrap;
+
+    }
+
+    .video--content-item {
+        width: calc(50% - 30px);
+    }
+
+    .video--content-text p{
+        font-size: 18px;
+        width: 100%;
+    }
+
+    .video--content-text {
+        margin-top: 145px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    /*-----------services------------*/
+    .services{
+        padding: 70px 0;
+    }
+
+    .services--content-top{
+        justify-content: center;
+    }
+
+    .services--content-top + .btn {
+        max-width: 31.3%;
+        margin: 60px auto 0 auto;
+    }
+
+    .services--top-item {
+        /*width: calc(50% - 1px);*/
+        width: 320px;
+        height: 250px;
+        margin: 0;
+    }
+
+    .services--img-block img{
+        width: calc(100% + 50px);
+        justify-content: center;
+        /*width: 350px;*/
+    }
+
+    .thumb__overlay-2_cnt {
+        position: absolute;
+        bottom: -23%;
+        left: 24%;
+    }
+
+    .thumb__overlay-2_cnt:hover {
+        position: absolute;
+        bottom: 10%;
+        left: 24%;
+    }
+
+    /*-----testimonials------------*/
+    .testimonials {
+        height: 491px;
+    }
+
+    .testimonials .container {
+        height: 100%;
+        padding: 70px 0;
+         /*width: 770px; */
+    }
+
+    .testimonials--content {
+        margin-top: 0;
+    }
+
+    .services--img-block:hover .thumb__overlay-2_cnt {
+        bottom: 10%;
+        left: 24%;
+    }
+
+    /*---------------contact-form------------*/
+    .contact-form{
+        padding: 50px 0;
+    }
+
+    form {
+         margin-top: 0px;
+    }
+
+    .input-group {
+        display: block;
+    }
+
+    /*textarea {*/
+    /*    min-width: 541px;*/
+    /*    max-width: 541px;*/
+    /*}*/
+
+    .wrapper-btn .btn {
+        width: 72px;
+        height: 38px;
+        justify-content: center;
+    }
+
+    .wrapper-btn .btn button p {
+        width: 100%;
+        padding:0;
+        font-size: 13px;
+    }
+
+    /*------footer--------*/
+    .footer-content{
+        display: block;
+    }
+
+    .footer-content span{
+        display: block;
+        margin-bottom:30px;
+    }
+
+    .contact-info{
+        display: block;
+        justify-content: center;
+    }
+
+    .footer--black{
+        justify-content: center;
+    }
+
+    .footer--black, .social-icons{
+        margin-bottom: 40px;
+    }
+
+}
+
+@media (max-width: 720px){
+    .header--downloads-btn{
+        display: none;
+    }
+
+    .elem-off--for-phone{
+        display: none;
+    }
+
+}
+
+@media (max-width: 679px){
+    .header--downloads-btn{
+        display: none;
+    }
+
+}
+
+@media (max-width: 575px){
+    .elem-off--for-ipad{
+        display: block;
+    }
+
+    .elem-on--for-ipad{
+        display: none;
+    }
+
+
+    .container {
+        width: 100%;
+    }
+
+    /*-------header--bottom--------*/
+
+    .header--top {
+        padding: 10px 40px 10px 20px;
+    }
+
+    .header--menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /*----------home----------*/
+    .home{
+        height: 350px;
+        margin-top: 148px;
+        background-position: 32% 100%;
+    }
+
+    .home .container{
+        justify-content: center;
+    }
+
+    .h1-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1{
+        font-size: 28px;
+        max-width: 69%;
+        margin: 70px 0;
+    }
+
+    .home--form-mini{
+        padding: 30px 0;
+        display: block;
+        margin: 0 15px;
+    }
+
+    .tandz{
+        width: 100%;
+    }
+
+    .tandz .btn{
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .dropdown {
+        margin-top: 20px;
+        width: 100%;
+        position: relative;
+    }
+
+    .container input{
+        width: 100%;
+    }
+
+    /*-------------recommendations-----------*/
+    .recommendations .container {
+        padding: 0;
+    }
+
+    .recommendations--content {
+        margin-top: 0px;
+    }
+
+    .recommendations--content-item{
+        padding: 0 15px;
+        width: 100%;
+    }
+
+    .recommendations--item-img{
+        width: 100%;
+        height: 391px;
+    }
+
+    .recommendations--item-img img{
+        width: calc(100% + 50px);
+        height: 391px;
+    }
+
+    h4, h4 + p{
+        text-align: center;
+    }
+
+    .recommendations--price {
+        right: 0;
+    }
+
+    /*.thumb__overlay-2_cnt {*/
+    /*    position: absolute;*/
+    /*    bottom: -23%;*/
+    /*    left: 34%;*/
+    /*}*/
+    .recommendations--item-img:hover .thumb__overlay {
+        bottom: 65%;
+        transition: all ease .4s;
+    }
+
+    .thumb__overlay-2_cnt:hover {
+        left: 34%
+    }
+
+    /*-----------video-------------*/
+    .video{
+        height: 100%;
+    }
+
+    .recommendations--title h2{
+        font-size: 26px;
+        line-height: 1.5;
+    }
+    .video .container {
+        height: 100%;
+        margin: auto;
+        position: relative;
+        z-index: 1;
+        padding: 50px 15px;
+    }
+
+    .video--content{
+        gap:0px;
+        margin-top: 0px;
+        flex-direction: column;
+    }
+
+    .video--content-items {
+        display: block;
+    }
+
+    .video--content-item {
+        display: block;
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .video--content-text {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 145px;
+    }
+
+    .video--content-text p {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    /*-----------services------------*/
+    .services{
+        padding: 70px 0;
+    }
+
+    .services--content-top{
+        justify-content: center;
+    }
+
+    .services--content-top + .btn {
+        width: 185px;
+        margin: 60px auto 0 auto;
+    }
+
+    .services--top-item {
+        /*width: calc(50% - 1px);*/
+        width: 320px;
+        height: 250px;
+        margin: 0;
+    }
+
+    .services--img-block img{
+        width: calc(100% + 50px);
+        justify-content: center;
+        /*width: 350px;*/
+    }
+
+    .thumb__overlay-2_cnt {
+        position: absolute;
+        bottom: -23%;
+        left: 24%;
+    }
+
+    .services--img-block:hover .thumb__overlay-2_cnt {
+        transition: all ease .4s;
+        /* filter: brightness(70%); */
+        position: absolute;
+        bottom: 10%;
+        left: 24%;
+    }
+
+    .testimonials {
+        background-position-y: 81%;
+        height: 491px;
+    }
+
+    .testimonials .container {
+        height: 100%;
+        padding: 50px 0;
+        width: 100%;
+    }
+
+    .testimonials--content {
+        margin-top: 0;
+        grid-template-rows: 48% 50% 48%;
+    }
+
+    /*---------------contact-form------------*/
+    .contact-form .container {
+        width: 100%;
+    }
+
+    .input-group {
+        display: block;
+    }
+
+    .wrapper-btn .btn {
+        width: 72px;
+        height: 38px;
+        justify-content: center;
+    }
+
+    .wrapper-btn .btn button p {
+        width: 100%;
+        padding:0;
+        font-size: 13px;
+
+    }
+
+    /*------footer--------*/
+    .footer-content{
+        display: block;
+    }
+
+    .footer-content span{
+        display: block;
+        margin-bottom:30px;
+    }
+
+    .contact-info{
+        display: block;
+    }
+
+    .footer--black{
+        justify-content: center;
+        margin-right: 0;
+        margin-bottom: 30px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .contact-info, .social-icons{
+        margin-bottom: 30px;
+    }
+}
