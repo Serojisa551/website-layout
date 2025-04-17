@@ -1,0 +1,392 @@
+body{
+    font-family: 'HelveticaNeueRoman', sans-serif;
+    background: #373A3C;
+}
+
+.container-out{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/*-------header------*/
+header .container--main{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header--nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    width: 62%;
+}
+
+.header--manu-active{
+    color:  #fff;
+}
+
+.header--manu{
+    display: flex;
+    gap: 30px;
+    margin-left: 10px;
+}
+
+.header--manu-item {
+    display: flex;
+    gap: 10px;
+}
+
+.header--manu-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF80;
+}
+
+.user-profile-image{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    cursor: pointer;
+    position: relative;
+}
+
+.menu-burger{
+    position: relative;
+}
+
+.menu-burger .dropdown-content{
+    left: -8.1em;
+}
+
+.header--manu-item:hover .dropdown-content,
+.menu-burger:hover .dropdown-content,
+.user-profile-image:hover .dropdown-content {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.header--manu-item:hover img,
+.user-profile-image:hover p + img{
+    transform: rotate(180deg);
+}
+
+
+.icon--search{
+    cursor: pointer;
+}
+
+.header--search{
+    height: 38px;
+    border-radius: 4px;
+    width: 50%;
+    cursor: pointer;
+}
+
+.header--search input{
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    max-width: 210px;
+    width: 100%;
+    color: #435766;
+}
+
+.header--user-profile{
+    width: 35%;
+}
+
+.user-profile-image p{
+    margin: 3px 6px 0 0;
+}
+
+/*-----------home----------*/
+.home{
+    background: url("../image/img/main-slider/main-slider-photo1.png") no-repeat center center;
+    background-size: cover;
+}
+
+.home--wrapper{
+    display: flex;
+    height: 644px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home--content{
+    display: grid;
+    width: 59%;
+    justify-content: end;
+    color: white;
+}
+
+.home--title{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0px;
+}
+
+.home--content .emptyBlock{
+    height: 134px;
+}
+
+.home--subtitle{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.home--content-btn{
+    width: 136px;
+    height: 38px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    border-radius: 4px;
+    color: white;
+}
+
+.home--content-btn:first-child{
+    margin-right: 13px;
+}
+
+.home--balls-manu{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 43px;
+}
+
+.balls-manu-active{
+    background: #8DD83D;
+}
+
+.home--balls-manu-item{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #8DD83D;
+}
+
+/*------best-----*/
+.best{
+    padding-top: 64px;
+    background: linear-gradient(180deg, #686C6F 0%, #373A3C 100%);;
+}
+
+.best .container--main{
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    justify-content: center;
+    color: white;
+}
+
+.best--title-text{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    color: white;
+}
+
+.best--title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.best--title img{
+    margin-bottom: 20px;
+    width: 64px;
+    height: 64px;
+}
+
+.best--title-text{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+}
+
+.best .cards-border{
+    justify-content: center;
+}
+
+
+#best-second-item-text{
+    max-width: 83%;
+}
+
+.best .emptyBlock{
+    height: 164px;
+}
+
+
+/*------------exclusive------------*/
+.exclusive {
+    background: url("../image/img/war.png") no-repeat center;
+    background-size: cover;
+    height: 880px;
+}
+
+.exclusive--title{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-right: 55px;
+}
+
+.cards-border--wrapper{
+    max-width: 94%;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.cards-border--wrapper .cards-border{
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.exclusive--title .emptyBlock{
+    width: 1px;
+    height: 1px;
+}
+
+.exclusive .subtitle{
+    padding: 97px 0 27px 0;
+    text-align: center;
+}
+
+.border--item-opacity{
+    opacity: 0.9;
+}
+
+.exclusive .container--card h3 {
+    font-size: 21px;
+    max-width: 84%;
+}
+
+.exclusive--title .btn-slider{
+    min-width: 15px;
+    max-width: 15px;
+    max-height: 15px;
+    min-height: 15px;
+    margin: 0;
+}
+
+.exclusive--btn-bottom{
+    display: flex;
+    justify-content: center;
+    margin-top: 69px;
+}
+
+.exclusive--bnt{
+    width: 207px;
+    height: 53px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 21px;
+    color: white;
+}
+
+/*--------lab--------*/
+.lab{
+    background: url("../image/img/bg-gamepad.png") no-repeat center;
+    background-size: cover;
+    height: 480px;
+    color: white;
+}
+
+.lab .container--main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.lab-title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 100%;
+    margin-bottom: 12px;
+}
+.lab-title + p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    width: 40%;
+    margin-bottom: 40px;
+}
+
+.lab--buttons-right{
+    margin-bottom: 10px;
+}
+
+.lab--buttons button p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: white;
+}
+
+.lab--buttons-right{
+    width: 207px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+.lab--buttons-left{
+    width: 278px;
+    height: 60px;
+}
+
+/*---------footer--------*/
+footer{
+    margin-top: 58px;
+    color: white;
+}
+
+footer .container--main{
+    display: flex;
+    justify-content: space-between;
+    width: 59%;
+}
+
+.footer--manu-title{
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    color: #7DD42F;
+}
+
+.footer--manu-item{
+    margin: 29px 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: white;
+}
+
+.footer--socialNetwork{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.footer--bottom{
+    padding: 20px 0 35px 0;
+    margin: 0 100px;
+    border-top: 1px solid #fff;
+    display: flex;
+    justify-content: space-between;
+}
